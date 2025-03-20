@@ -1,6 +1,10 @@
 import React,{ useState } from "react";
 import "./App.css";
-import ObjArrForm from "./Components/ObjArrForm";
+import Comment from "./Components/Comment";
+// import Tableimage from "./Components/Tableimage";
+//  import USer_form from "./Components/USer_form";
+// import Class from "./assets/LifeCycle of React Components/Class";
+// import ObjArrForm from "./Components/ObjArrForm";
 // import ObjectForm from "./Components/ObjectForm";
 // import Formfunction from "./Components/Formfunction";
 // import Formclass from "./Components/Formclass";
@@ -88,7 +92,11 @@ return (
      {/* <Formclass/> */}
      {/* <Formfunction/> */}
      {/* <ObjectForm/> */}
-     <ObjArrForm/>
+     {/* <ObjArrForm/> */}
+     {/* <Class/> */}
+     {/* <USer_form/> */}
+     {/* <Tableimage/> */}
+      <Comment/> 
      
      </>
     
