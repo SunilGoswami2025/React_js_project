@@ -1,6 +1,10 @@
 import React,{ useState } from "react";
 import "./App.css";
-import Comment from "./Components/Comment";
+// import SingleState from "./Components/SingleState";
+// import OBjectState from "./Components/OBjectState";
+// import MultipleFile from "./Components/MultipleFile";
+import MultipleField from "./Components/MultipleField";
+// import Comment from "./Components/Comment";
 // import Tableimage from "./Components/Tableimage";
 //  import USer_form from "./Components/USer_form";
 // import Class from "./assets/LifeCycle of React Components/Class";
@@ -17,6 +21,15 @@ import Comment from "./Components/Comment";
 // import Home from "./Components/Home";
 //  import Navbar from "./Components/Navbar";
 // import Datashow from "./Components/Datashow";
+
+// Bootstrap Link
+
+// import NavbarBootstrap from "./Bootstrap/NavbarBootstrap";
+// import "bootstrap/dist/css/bootstrap.min.css"
+// import "bootstrap/dist/js/bootstrap.bundle.min.js"
+// import { Route,Routes } from "react-router-dom";
+// import NavbarRouter from "./Bootstrap/Router_Navigatating/NavbarRouter";
+// import NavbarReact from "./Bootstrap/NavbarReact";
 
 
 
@@ -96,8 +109,28 @@ return (
      {/* <Class/> */}
      {/* <USer_form/> */}
      {/* <Tableimage/> */}
-      <Comment/> 
-     
+      {/* <Comment/>  */}
+      <MultipleField/>
+      {/* <MultipleFile/> */}
+      {/* <NavbarBootstrap/> */}
+      {/* <NavbarReact/> */}
+      {/* <NavbarRouter/> */}
+      {/* <OBjectState/> */}
+      {/* <SingleState/> */}
+
+  
+      
+
+      {/* <Routes>
+        <Route path="" element=""></Route>
+        <Route path="" element=""></Route>
+        <Route path="" element=""></Route>
+        <Route path="/" element=""></Route>
+        <Route path="/" element=""></Route>
+
+
+      </Routes> */}
+      
      </>
     
       
