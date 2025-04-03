@@ -1,9 +1,15 @@
 import React,{ useState } from "react";
 import "./App.css";
+// import NavbarRouting from "./Navbar_Routing/NavbarRouting";
+// import Home from "./Navbar_Routing/Home";
+// import About from "./Navbar_Routing/About";
+// import Services from "./Navbar_Routing/Services";
+// import Blog from "./Navbar_Routing/Blog";
+// import Contact from "./Navbar_Routing/Contact";
 // import SingleState from "./Components/SingleState";
 // import OBjectState from "./Components/OBjectState";
 // import MultipleFile from "./Components/MultipleFile";
-import MultipleField from "./Components/MultipleField";
+// import MultipleField from "./Components/MultipleField";
 // import Comment from "./Components/Comment";
 // import Tableimage from "./Components/Tableimage";
 //  import USer_form from "./Components/USer_form";
@@ -25,12 +31,14 @@ import MultipleField from "./Components/MultipleField";
 // Bootstrap Link
 
 // import NavbarBootstrap from "./Bootstrap/NavbarBootstrap";
-// import "bootstrap/dist/css/bootstrap.min.css"
-// import "bootstrap/dist/js/bootstrap.bundle.min.js"
-// import { Route,Routes } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle.min.js"
+ import { Route,Routes } from "react-router-dom";
+import Slider from "./Bootstrap/Slider";
+//  import HomeNavigation from "./Navigation/HomeNavigation";
+//  import AboutNavigation from "./Navigation/AboutNavigation";
 // import NavbarRouter from "./Bootstrap/Router_Navigatating/NavbarRouter";
 // import NavbarReact from "./Bootstrap/NavbarReact";
-
 
 
 function App() {
@@ -110,30 +118,29 @@ return (
      {/* <USer_form/> */}
      {/* <Tableimage/> */}
       {/* <Comment/>  */}
-      <MultipleField/>
+      {/* <MultipleField/> */}
       {/* <MultipleFile/> */}
       {/* <NavbarBootstrap/> */}
       {/* <NavbarReact/> */}
       {/* <NavbarRouter/> */}
       {/* <OBjectState/> */}
       {/* <SingleState/> */}
-
-  
+      {/* <NavbarRouting/> */}
+       {/* <HomeNavigation/>
+      <AboutNavigation/>  */}
+      <Slider/>
       
-
-      {/* <Routes>
-        <Route path="" element=""></Route>
-        <Route path="" element=""></Route>
-        <Route path="" element=""></Route>
-        <Route path="/" element=""></Route>
-        <Route path="/" element=""></Route>
-
-
-      </Routes> */}
-      
-     </>
     
-      
+      <Routes>
+        {/* <Route path="/home" element={<Home/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
+        <Route path="/services" element={<Services/>}></Route>
+        <Route path="/blog" element={<Blog/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route> */}
+         {/* <Route path="/HomeNavigation" element={<HomeNavigation/>}></Route>
+        <Route path="/AboutNavigation" element={<AboutNavigation/>}></Route>  */}
+    </Routes> 
+     </>   
   
   )
 }

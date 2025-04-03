@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 187, 253);
+    padding-left: 20px;
+
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a{
+    color: black;
+}
+.sidebar{
+    width: 300px;
+    background-color: aquamarine;
+    height: 95vh;
+    position: fixed;
+    top: 58px;
+
+}

@@ -1,0 +1,6 @@
+.carousel-img {
+    height: 725px;
+    /* Fixed height for all images */
+    object-fit: cover;
+    /* Ensures images maintain aspect ratio and cover the area */
+}
