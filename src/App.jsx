@@ -1,5 +1,6 @@
 import React,{ useState } from "react";
 import "./App.css";
+
 // import NavbarRouting from "./Navbar_Routing/NavbarRouting";
 // import Home from "./Navbar_Routing/Home";
 // import About from "./Navbar_Routing/About";
@@ -31,14 +32,44 @@ import "./App.css";
 // Bootstrap Link
 
 // import NavbarBootstrap from "./Bootstrap/NavbarBootstrap";
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.bundle.min.js"
- import { Route,Routes } from "react-router-dom";
-import Slider from "./Bootstrap/Slider";
-//  import HomeNavigation from "./Navigation/HomeNavigation";
-//  import AboutNavigation from "./Navigation/AboutNavigation";
+// import "bootstrap/dist/css/bootstrap.min.css"
+// import "bootstrap/dist/js/bootstrap.bundle.min.js"
+// import { Route,Routes } from "react-router-dom";
+// import Slider from "./Bootstrap/Slider";
 // import NavbarRouter from "./Bootstrap/Router_Navigatating/NavbarRouter";
 // import NavbarReact from "./Bootstrap/NavbarReact";
+
+// Navigation Link
+
+//  import NavbarNavigations from "./Navigations/NavbarNavigations";
+//  import HomeNavigaton from "./Navigations/HomeNavigaton";
+//  import AboutNavigation from "./Navigations/AboutNavigation";
+//  import DatashowNavigation from "./Navigations/DatashowNavigation";
+//  import Form1 from "./Navigations/Form1";
+ 
+// LocalStorage Project
+
+// import SingleImage from "./assets/Navigation_project/SingleImage";
+// import MultipleImage from "./assets/Navigation_project/MultipleImage";
+
+// Navigation Project
+
+import { Route, Routes } from "react-router-dom";
+import SingleImage from "./Navigation_project/SingleImage";
+import SingleImageDataShow from "./Navigation_project/SingleImageDataShow";
+// import Multiple1 from "./Navigation_project/Multiple1";
+// import MultipleDataShow from "./Navigation_project/MultipleDataShow";
+
+
+//Search % Shorting
+// import { Route ,Routes } from "react-router-dom";
+// import Search from "./Search_shorting/Search";
+// import Shorting from "./Search_shorting/Shorting";
+
+// PropsLink
+
+// import Props from "./PropDrilling/Props";
+// import { Route } from "react-router-dom";
 
 
 function App() {
@@ -126,20 +157,37 @@ return (
       {/* <OBjectState/> */}
       {/* <SingleState/> */}
       {/* <NavbarRouting/> */}
-       {/* <HomeNavigation/>
-      <AboutNavigation/>  */}
-      <Slider/>
+      {/* <HomeNavigation/>
+      <AboutNavigation/> */}
+      {/* <NavbarNavigations/> */}
+      {/* <SingleImage/> */}
+      {/* <MultipleImage/> */}
+      
+      {/* <Props/> */}
+
+      
+      {/* <Slider/> */}
       
     
       <Routes>
-        {/* <Route path="/home" element={<Home/>}></Route>
-        <Route path="/about" element={<About/>}></Route>
-        <Route path="/services" element={<Services/>}></Route>
-        <Route path="/blog" element={<Blog/>}></Route>
-        <Route path="/contact" element={<Contact/>}></Route> */}
-         {/* <Route path="/HomeNavigation" element={<HomeNavigation/>}></Route>
-        <Route path="/AboutNavigation" element={<AboutNavigation/>}></Route>  */}
+        {/* <Route path="/home" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/services" element={<Services/>}/>
+        <Route path="/blog" element={<Blog/>}/>
+        <Route path="/contact" element={<Contact/>}/> */}
+        {/* <Route path="/HomeNavigation" element={<HomeNavigaton/>}/>
+        <Route path="/AboutNavigation" element={<AboutNavigation/>}/>
+        <Route path="/DatashowNavigation" element={<DatashowNavigation/>}/>
+        <Route path="/Form1" element={<Form1/>}/> */}
+        <Route path="/" element={<SingleImage/>}/>
+        <Route path="SingleImageDataShow" element={<SingleImageDataShow/>}/>
+       {/* <Route path="/" element={<Search/>}/> */}
+       {/* <Route path="Shorting" element={<Shorting/>}/> */}
+       {/* <Route path="/" element={<Multiple1/>}/> */}
+       {/* <Route path="/MultipleDataShow" element={<MultipleDataShow/>}/> */}
+
     </Routes> 
+
      </>   
   
   )
