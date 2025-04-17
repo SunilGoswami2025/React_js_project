@@ -54,17 +54,17 @@ import "./App.css";
 
 // Navigation Project
 
-import { Route, Routes } from "react-router-dom";
-import SingleImage from "./Navigation_project/SingleImage";
-import SingleImageDataShow from "./Navigation_project/SingleImageDataShow";
+// import { Route, Routes } from "react-router-dom";
+// import SingleImage from "./Navigation_project/SingleImage";
+// import SingleImageDataShow from "./Navigation_project/SingleImageDataShow";
 // import Multiple1 from "./Navigation_project/Multiple1";
 // import MultipleDataShow from "./Navigation_project/MultipleDataShow";
 
 
 //Search % Shorting
-// import { Route ,Routes } from "react-router-dom";
-// import Search from "./Search_shorting/Search";
-// import Shorting from "./Search_shorting/Shorting";
+import { Route ,Routes } from "react-router-dom";
+import Serch_Shorting from "./Search_shorting/Serch_Shorting";
+
 
 // PropsLink
 
@@ -179,10 +179,9 @@ return (
         <Route path="/AboutNavigation" element={<AboutNavigation/>}/>
         <Route path="/DatashowNavigation" element={<DatashowNavigation/>}/>
         <Route path="/Form1" element={<Form1/>}/> */}
-        <Route path="/" element={<SingleImage/>}/>
-        <Route path="SingleImageDataShow" element={<SingleImageDataShow/>}/>
-       {/* <Route path="/" element={<Search/>}/> */}
-       {/* <Route path="Shorting" element={<Shorting/>}/> */}
+        {/* <Route path="/" element={<SingleImage/>}/> */}
+        {/* <Route path="SingleImageDataShow" element={<SingleImageDataShow/>}/> */}
+       <Route path="/" element={<Serch_Shorting/>}/>
        {/* <Route path="/" element={<Multiple1/>}/> */}
        {/* <Route path="/MultipleDataShow" element={<MultipleDataShow/>}/> */}
 
