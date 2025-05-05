@@ -62,8 +62,34 @@ import "./App.css";
 
 
 //Search % Shorting
+// import { Route ,Routes } from "react-router-dom";
+// import Serch_Shorting from "./Search_shorting/Serch_Shorting";
+
+// API
+
 import { Route ,Routes } from "react-router-dom";
-import Serch_Shorting from "./Search_shorting/Serch_Shorting";
+import Fake_Store_Api from "./Api/Fake_Store_Api";
+// import Dogapi from "./Api/Dogapi";
+// import UserRandomApi from "./Api/UserRandomApi";
+// import UserApi from "./Api/UserApi";
+// import TodosApi from "./Api/TodosApi";
+// import PhotoApi from "./Api/PhotoApi";
+// import Albums from "./Api/Albums";
+// import CommentApi from "./Api/CommentApi";
+// import PostApi from "./Api/PostApi";
+
+// Exois API
+// import { Route ,Routes } from "react-router-dom";
+// import ProductAxios from "./AxiosAPI/ProductAxios";
+// import DogAxios from "./AxiosAPI/DogAxios";
+// import UserRandomApi from "./Api/UserRandomApi";
+// import TodosAxios from "./AxiosAPI/TodosAxios";
+// import UserAxios from "./AxiosAPI/UserAxios";
+// import PhotoExios from "./ExiosAPI/PhotoExios";
+// import AlbumsExios from "./ExiosAPI/AlbumsExios";
+// import CommentsExios from "./ExiosAPI/CommentsExios";
+// import PostExios from "./ExiosAPI/PostExios";
+// import Fake_Store_Axios from "./AxiosAPI/Fake_Store_Axios";
 
 
 // PropsLink
@@ -162,12 +188,10 @@ return (
       {/* <NavbarNavigations/> */}
       {/* <SingleImage/> */}
       {/* <MultipleImage/> */}
-      
       {/* <Props/> */}
-
-      
       {/* <Slider/> */}
-      
+    
+
     
       <Routes>
         {/* <Route path="/home" element={<Home/>}/>
@@ -181,9 +205,42 @@ return (
         <Route path="/Form1" element={<Form1/>}/> */}
         {/* <Route path="/" element={<SingleImage/>}/> */}
         {/* <Route path="SingleImageDataShow" element={<SingleImageDataShow/>}/> */}
-       <Route path="/" element={<Serch_Shorting/>}/>
+       {/* <Route path="/" element={<Serch_Shorting/>}/> */}
        {/* <Route path="/" element={<Multiple1/>}/> */}
        {/* <Route path="/MultipleDataShow" element={<MultipleDataShow/>}/> */}
+
+       {/* API */}
+
+       {/* <Route path="/" element={<PostApi/>}/> */}
+       {/* <Route path="/" element={<CommentApi/>}/> */}
+       {/* <Route  path="/" element={<Albums/>}/> */}
+       {/* <Route path="/" element={<PhotoApi/>}/> */}
+       {/* <Route path="/" element={<TodosApi/>}/> */}
+       {/* <Route path="/" element={<UserApi/>}/> */}
+       {/* <Route path="/" element={<Dogapi/>}/> */}
+       {/* <Route path="/" element={<UserRandomApi/>}/> */}
+       <Route path="/" element={<Fake_Store_Api/>}/>
+       
+
+
+       {/* AXIOS API */}
+       {/* <Route path="/" element={<PostExios/>}/> */}
+       {/* <Route path="/" element={<CommentsExios/>}/> */}
+       {/* <Route path="/" element={<AlbumsExios/>}/> */}
+       {/* <Route path="/" element={<PhotoExios/>}/> */}
+       {/* <Route path="/" element={<TodosAxios/>}/> */}
+       {/* <Route path="/" element={<UserAxios/>}/> */}
+       {/* <Route path="/" element={<DogAxios/>}/> */}
+       {/* <Route path="/"  element={<UserRandomApi/>}/> */}
+       {/* <Route path="/" element={<ProductAxios/>}/> */}
+       {/* <Route path="/" element={<Fake_Store_Axios/>}/> */}
+
+
+
+
+
+       
+
 
     </Routes> 
 
